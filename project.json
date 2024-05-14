@@ -1,5 +1,6 @@
 {
   "name": "UiPath Github Action",
+  "projectId": "cd9579d4-d91e-4e40-a4ea-f1fad527894e",
   "description": "Blank Process",
   "main": "Main.xaml",
   "dependencies": {
@@ -21,6 +22,7 @@
     "isAttended": false,
     "requiresUserInteraction": true,
     "supportsPersistence": false,
+    "workflowSerialization": "DataContract",
     "excludedLoggedData": [
       "Private:*",
       "*password*"
@@ -28,7 +30,8 @@
     "executionType": "Workflow",
     "readyForPiP": false,
     "startsInPiP": false,
-    "mustRestoreAllDependencies": true
+    "mustRestoreAllDependencies": true,
+    "pipType": "ChildSession"
   },
   "designOptions": {
     "projectProfile": "Developement",
@@ -46,10 +49,11 @@
       {
         "editingStatus": "Publishable",
         "testCaseId": "c7a5d707-a0b2-4dc5-b1a5-99833c357e6a",
+        "testCaseType": "TestCase",
         "fileName": "TestCase.xaml"
       }
     ],
-    "modernBehavior": true
+    "saveToCloud": false
   },
   "expressionLanguage": "VisualBasic",
   "entryPoints": [
